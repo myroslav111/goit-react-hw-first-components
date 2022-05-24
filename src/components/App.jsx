@@ -1,6 +1,6 @@
 import user from './Profile-user/user';
 
-import Section from './Section';
+// import Section from './Section';
 import Profile from './Profile-user/Profile';
 import { Container } from './App.styled';
 // import { CardProfile } from './Profile-user/Profile.styled';
