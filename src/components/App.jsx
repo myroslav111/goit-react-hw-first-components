@@ -1,9 +1,9 @@
 import user from './Profile-user/user';
-
-// import Section from './Section';
 import Profile from './Profile-user/Profile';
 import { Container } from './App.styled';
-// import { CardProfile } from './Profile-user/Profile.styled';
+import SectionStatistic from './Statistics/Section-statistic';
+import Statistic from './Statistics/Statistic';
+import data from './Statistics/data';
 
 export const App = () => {
   return (
@@ -17,6 +17,10 @@ export const App = () => {
         views={user.stats.views}
         likes={user.stats.likes}
       />
+
+      <SectionStatistic title={'Upload stats'}>
+        <Statistic statistic={data} />
+      </SectionStatistic>
     </Container>
   );
 };

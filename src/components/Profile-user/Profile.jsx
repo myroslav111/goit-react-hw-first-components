@@ -49,7 +49,6 @@ Profile.propTypes = {
   likes: PropTypes.number.isRequired,
   views: PropTypes.number.isRequired,
   followers: PropTypes.number.isRequired,
-  // stats: PropTypes.objectOf(PropTypes.number).isRequired,
 };
 
 export default Profile;

@@ -9,7 +9,7 @@ export const CardProfile = styled.div`
   overflow: hidden;
   border-radius: 2rem;
   box-shadow: 0px 1rem 1.5rem rgb(0 0 0 / 50%);
-  padding-bottom: 25px;
+  margin-bottom: 20px;
   @media (max-width: 768px) {
     height: 90%;
     width: 100%;
@@ -20,8 +20,7 @@ export const UserDescription = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f7fcf9;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 `;
 
 export const Img = styled.img`
@@ -58,9 +57,9 @@ export const Location = styled.p`
 export const Stats = styled.ul`
   display: flex;
   justify-content: space-around;
-  padding: 10px 0px 10px 0px;
   height: 125px;
-  align-items: flex-end;
+  align-items: center;
+  background-color: #f7fcf9;
 `;
 
 export const ItemStats = styled.li`
@@ -68,7 +67,6 @@ export const ItemStats = styled.li`
   flex-direction: column;
   align-items: center;
   border-radius: 50%;
-  //   background-color: gray;
 `;
 
 export const Label = styled.span`
