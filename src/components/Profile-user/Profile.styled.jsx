@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const CardProfile = styled.div`
   max-height: 500px;
   width: 430px;
-  background-color: #fff;
+  background: linear-gradient(60deg, #a3a0a3 20%, transparent 40%);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -55,6 +55,15 @@ export const Location = styled.p`
 `;
 
 export const Stats = styled.ul`
+  // background-image: linear-gradient(
+  //   to right,
+  //   #c64f4f 33.3%,
+  //   #09792b 33.3%,
+  //   #09792b 33.3%,
+  //   #00b9ff 33.3%,
+  //   #00b9ff 65%,
+  //   #ffb800 65%
+  // );
   display: flex;
   justify-content: space-around;
   height: 125px;
@@ -66,7 +75,6 @@ export const ItemStats = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 50%;
 `;
 
 export const Label = styled.span`

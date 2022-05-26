@@ -1,4 +1,9 @@
 .s {
+  font-weight: 600;
+  font-size: xx-large;
+  border-radius: 50%;
+  background-color: red;
+  height: 5px;
   display: flex;
   flex-direction: column;
 }

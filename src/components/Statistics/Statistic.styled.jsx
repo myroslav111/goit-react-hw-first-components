@@ -16,6 +16,14 @@ export const Item = styled.li`
   width: 100px;
   height: 100px;
   justify-content: space-around;
+  transform: translateY(5%);
+  transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  @media (min-width: 600px) {
+    &:hover {
+      transform: translateY(5%) scale(1.1);
+      z-index: 1;
+    }
+  }
 
   &:nth-of-type(1) {
     background-color: orange;
