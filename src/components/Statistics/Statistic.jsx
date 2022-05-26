@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { StatisticList, Item, Label, Percentage } from './Statistic.styled';
 
 function Statistic({ statistic }) {
-  console.log(statistic);
   return (
     <StatisticList>
       {statistic.map(prop => (
@@ -20,7 +19,7 @@ Statistic.propTypes = {
     PropTypes.shape({
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
-      precentage: PropTypes.number.isRequired,
+      percentage: PropTypes.number.isRequired,
     })
   ),
 };

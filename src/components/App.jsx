@@ -1,9 +1,12 @@
 import user from './Profile-user/user';
+import data from './Statistics/data';
+import friends from './FriendList/friends';
 import Profile from './Profile-user/Profile';
-import { Container } from './App.styled';
 import SectionStatistic from './Statistics/Section-statistic';
 import Statistic from './Statistics/Statistic';
-import data from './Statistics/data';
+import FriendList from './FriendList/FriendList';
+import { Container } from './App.styled';
+// console.log(friends);
 
 export const App = () => {
   return (
@@ -21,6 +24,8 @@ export const App = () => {
       <SectionStatistic title={'Upload stats'}>
         <Statistic statistic={data} />
       </SectionStatistic>
+
+      <FriendList friendsData={friends} />
     </Container>
   );
 };

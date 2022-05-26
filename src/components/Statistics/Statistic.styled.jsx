@@ -17,20 +17,20 @@ export const Item = styled.li`
   height: 100px;
   justify-content: space-around;
 
-  &:nth-child(1) {
+  &:nth-of-type(1) {
     background-color: orange;
     border-bottom-left-radius: 20px;
   }
-  &:nth-child(2) {
+  &:nth-of-type(2) {
     background-color: blue;
   }
-  &:nth-child(3) {
+  &:nth-of-type(3) {
     background-color: red;
   }
-  &:nth-child(4) {
+  &:nth-of-type(4) {
     background-color: grey;
   }
-  &:nth-child(5) {
+  &:nth-of-type(5) {
     background-color: pink;
     border-bottom-right-radius: 20px;
   }
