@@ -9,5 +9,5 @@ export const Container = styled.div`
   font-size: 40;
   color: #010101;
   background-color: #c1d4cc;
-  padding: 10px 30px 0px 30px;
+  padding: 10px 30px 10px 30px;
 `;
